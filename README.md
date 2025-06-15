@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)
 ![Status](https://img.shields.io/badge/status-en%20desarrollo%20%7C%20Linux%20y%20macOS%20pronto-orange)
-![Tech](https://img.shields.io/badge/made_with-WPF%20%7C%20C%23%20%7C%20XAML-blueviolet)
+![Tech](https://img.shields.io/badge/made_with-WPF%20%7C%20C%23%20%7C%20XAML%20%7C%20Python-blueviolet)
 ![Status](https://img.shields.io/badge/status-en%20desarrollo-orange)
 
 Aplicación de escritorio desarrollada en **WPF con C# y XAML** que permite realizar predicciones químicas utilizando una API REST.  
@@ -22,7 +22,7 @@ Durante el proyecto también fue necesario crear y modificar funcionalidades de 
 
 ## 🔧 Ajustes realizados en la API
 
-Durante el desarrollo de la aplicación fue necesario adaptar algunos aspectos de la API para asegurar una integración fluida y consistente. Esto incluyó tareas como:
+Durante el desarrollo de la aplicación fue necesario adaptar algunos aspectos de la API(desarrollada en Python) para asegurar una integración fluida y consistente. Esto incluyó tareas como:
 
 - Estandarización del formato de las respuestas JSON.
 - Validación adicional de los datos de entrada.
@@ -48,6 +48,7 @@ Cada modelo cuenta con su propio formulario y lógica de procesamiento, aunque c
 
 ## 🧱 Arquitectura y Tecnologías
 
+- Backend en Python (Django) utilizado para las predicciones químicas y consumido desde la app.
 - **Arquitectura MVVM** (Model-View-ViewModel), con separación clara entre lógica de presentación, negocio y datos.
 - **Validación de entradas químicas** mediante expresiones regulares para **SMILES** y **CAS**, y soporte para entrada visual con **dibujado molecular**.
 - **ClosedXML** para generación de informes Excel.
