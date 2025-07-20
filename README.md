@@ -7,6 +7,7 @@
 
 Aplicación de escritorio desarrollada en **WPF con C# y XAML** que permite realizar predicciones químicas utilizando una API REST.  
 Durante el proyecto también fue necesario crear y modificar funcionalidades de la API para que funcionara.
+Solo se muestran algunos apartados y los permitidos, los ocultos no se mostrarán.
 
 ---
 
@@ -173,8 +174,3 @@ Esta aplicación fue desarrollada íntegramente por mí durante mis prácticas p
 - La integración y adaptación con la API REST.
 - Las mejoras técnicas necesarias en la API para su correcto funcionamiento con la app.
 
----
-
-## 📦 Instalador
-
-Cuando se publique la versión estable de la aplicación, se incluirá un instalador (.exe) en este repositorio para que pueda ser descargada y probada fácilmente.
